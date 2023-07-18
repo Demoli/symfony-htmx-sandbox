@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+    <h1>Well hello there</h1>
+
+    <div>
+        <button hx-get="/clicked"
+                hx-trigger="click"
+                hx-swap="outerHTML"
+        >
+            Click Me!
+        </button>
+    </div>
+
+
+{% endblock %}
