@@ -14,5 +14,21 @@
         </button>
     </div>
 
+    <form hx-post="/welcome">
+        <fieldset>
+            <legend>Who are you</legend>
+            <p>
+            <label for="name">Name</label>
+            <input name="name" id="name" required>
+            </p>
+
+            <p>
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email" required>
+            </p>
+
+            <input type="submit" />
+        </fieldset>
+    </form>
 
 {% endblock %}

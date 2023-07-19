@@ -18,4 +18,7 @@ return [
         'path' => 'app.js',
         'preload' => true,
     ],
+    'htmx.org' => [
+        'url' => 'https://cdn.jsdelivr.net/npm/htmx.org@1.9.3/+esm',
+    ],
 ];
